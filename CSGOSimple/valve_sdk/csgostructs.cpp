@@ -97,7 +97,7 @@ bool C_BaseCombatWeapon::IsReloading()
 
 float C_BaseCombatWeapon::GetInaccuracy()
 {
-    return CallVFunction<float(__thiscall*)(void*)>(this, 483)(this);
+    return CallVFunction<float(__thiscall*)(void*)>(this, 469)(this);
 }
 
 float C_BaseCombatWeapon::GetSpread()
